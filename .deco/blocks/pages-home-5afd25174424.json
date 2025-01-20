@@ -29,7 +29,8 @@
     },
     {
       "__resolveType": "site/sections/Testimonials.tsx",
-      "arrows": true
+      "arrows": false,
+      "dots": true
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
