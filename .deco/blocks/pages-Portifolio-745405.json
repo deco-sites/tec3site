@@ -1,0 +1,44 @@
+{
+  "name": "Portifolio",
+  "path": "/portifolio",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/Portfolio.tsx",
+      "title": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet. Qui voluptas quisquam At accusamus distinctio ut necessitatibus blanditiis At quisquam officiis et delectus recusandae qui rerum quaerat in dolor aspernatur necessitatibus blanditiis .",
+      "background": "https://data.decoassets.com/tec3site/f90d63e7-9acd-41aa-964f-31c03be41750/andreea-avramescu-wR56AUlEsE4-unsplash.jpg",
+      "projects": [
+        {
+          "title": "Lorem Ipsum",
+          "description": "Lorem ipsum dolor sit amet. Qui voluptas quisquam At accusamus distinctio ut necessitatibus blanditiis At quisquam officiis et delectus recusandae qui rerum quaerat in dolor aspernatur necessitatibus blanditiis At quisquam officiis et delectus recusandae qui rerum quaerat in dolor aspernat.",
+          "mockup": "https://data.decoassets.com/tec3site/0712f394-639b-4790-83fe-a04b3688cd67/Design-sem-nome-(26)-1.png"
+        },
+        {
+          "title": "Lorem Ipsum",
+          "description": "Lorem ipsum dolor sit amet. Qui voluptas quisquam At accusamus distinctio ut necessitatibus blanditiis At quisquam officiis et delectus recusandae qui rerum quaerat in dolor aspernatur necessitatibus blanditiis At quisquam officiis et delectus recusandae qui rerum quaerat in dolor aspernat.",
+          "mockup": "https://data.decoassets.com/tec3site/a0f58019-8add-401d-9878-2e8218852805/Design-sem-nome-(12).png"
+        },
+        {
+          "title": "Lorem Ipsum",
+          "description": "Lorem ipsum dolor sit amet. Qui voluptas quisquam At accusamus distinctio ut necessitatibus blanditiis At quisquam officiis et delectus recusandae qui rerum quaerat in dolor aspernatur necessitatibus blanditiis At quisquam officiis et delectus recusandae qui rerum quaerat in dolor aspernat.",
+          "mockup": "https://data.decoassets.com/tec3site/0712f394-639b-4790-83fe-a04b3688cd67/Design-sem-nome-(26)-1.png"
+        },
+        {
+          "title": "Lorem Ipsum",
+          "description": "Lorem ipsum dolor sit amet. Qui voluptas quisquam At accusamus distinctio ut necessitatibus blanditiis At quisquam officiis et delectus recusandae qui rerum quaerat in dolor aspernatur necessitatibus blanditiis At quisquam officiis et delectus recusandae qui rerum quaerat in dolor aspernat.",
+          "mockup": "https://data.decoassets.com/tec3site/a0f58019-8add-401d-9878-2e8218852805/Design-sem-nome-(12).png"
+        }
+      ]
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

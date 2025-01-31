@@ -1,1 +1,10 @@
-{"__resolveType":"site/sections/Footer.tsx","links":[],"bottomLinks":[],"social":[],"subscribe":{}}
+{
+  "__resolveType": "site/sections/Footer.tsx",
+  "links": [],
+  "bottomLinks": [],
+  "social": [],
+  "subscribe": {},
+  "background": "https://data.decoassets.com/tec3site/f90d63e7-9acd-41aa-964f-31c03be41750/andreea-avramescu-wR56AUlEsE4-unsplash.jpg",
+  "title": "Fale Conosco",
+  "description": "Estamos a apenas um clique de transformar suas ideias em resultados"
+}

@@ -9,26 +9,104 @@
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Testimonials.tsx"
+      "__resolveType": "site/sections/Hero-sobre-nos.tsx",
+      "title": "Construa Seu Negócio em Bases Sólidas e Confiáveis",
+      "description": "Lorem ipsum dolor sit amet. Est omnis quasi est odio veritatis et illo voluptates et Quis asperiores ab rerum repellendus. Aut minima quibusdam aut quaerat beatae ut libero voluptatum et debitis laborum. Non voluptas odit sed deleniti nostrum sit ipsam corrupti eum laborum officiis. Est deleniti pariatur est perspiciatis suscipit aut aspernatur molestias vel minima natus. Hic laboriosam totam et suscipit suscipit et tempora aliquam rem error quidem ad ratione totam sit autem officiis. Ex quae quidem et fugiat quia non obcaecati laborum id culpa quos ea corporis fuga non voluptatem commodi non recusandae quae. Sed quae magni qui fuga beatae rem ullam quia aut dolorem officia hic facilis velit non nihil consequatur.",
+      "logo": "https://data.decoassets.com/tec3site/bcb4f04d-7e21-4a2b-b9f3-b080b8e6e612/t3-logo.png",
+      "background": "https://data.decoassets.com/tec3site/f90d63e7-9acd-41aa-964f-31c03be41750/andreea-avramescu-wR56AUlEsE4-unsplash.jpg",
+      "metrics": [
+        {
+          "value": "100%",
+          "label": "Lorem Ipsum"
+        },
+        {
+          "value": "+ 8",
+          "label": "Anos de atuação"
+        },
+        {
+          "value": "+ 25",
+          "label": "Empresas atendidas"
+        }
+      ],
+      "header": {
+        "__resolveType": "site/sections/Header.tsx",
+        "logo": {
+          "src": "https://data.decoassets.com/tec3site/bcb4f04d-7e21-4a2b-b9f3-b080b8e6e612/t3-logo.png"
+        },
+        "navigation": {
+          "links": [
+            {
+              "label": "Inicio",
+              "url": "/"
+            },
+            {
+              "label": "Sobre nós",
+              "url": "/sobre-nos"
+            }
+          ],
+          "buttons": []
+        }
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Footer"
-      }
+      "__resolveType": "site/sections/Testimonials.tsx",
+      "title": "VEJA O QUE É DITO  SOBRE NÓS",
+      "arrows": true,
+      "dots": false,
+      "slides": [
+        {
+          "content": {
+            "name": "John Doe",
+            "description": "I've been using their tech products for years, and I'm always impressed by the quality and innovation. The customer service is top-notch too!",
+            "stars": 5
+          }
+        },
+        {
+          "content": {
+            "name": "John Doe",
+            "description": "I've been using their tech products for years, and I'm always impressed by the quality and innovation. The customer service is top-notch too!",
+            "stars": 5
+          }
+        },
+        {
+          "content": {
+            "name": "John Doe",
+            "description": "I've been using their tech products for years, and I'm always impressed by the quality and innovation. The customer service is top-notch too!",
+            "stars": 5
+          }
+        },
+        {
+          "content": {
+            "name": "John Doe",
+            "description": "I've been using their tech products for years, and I'm always impressed by the quality and innovation. The customer service is top-notch too!",
+            "stars": 5
+          }
+        },
+        {
+          "content": {
+            "name": "John Doe",
+            "description": "I've been using their tech products for years, and I'm always impressed by the quality and innovation. The customer service is top-notch too!",
+            "stars": 5
+          }
+        },
+        {
+          "content": {
+            "name": "John Doe",
+            "description": "I've been using their tech products for years, and I'm always impressed by the quality and innovation. The customer service is top-notch too!",
+            "stars": 5
+          }
+        },
+        {
+          "content": {
+            "name": "John Doe",
+            "description": "I've been using their tech products for years, and I'm always impressed by the quality and innovation. The customer service is top-notch too!",
+            "stars": 5
+          }
+        }
+      ]
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Hero.tsx",
-        "title": "Click here to tweak this text however you want.",
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-        "placement": "left",
-        "cta": []
-      }
+      "__resolveType": "Footer"
     }
   ],
   "seo": {

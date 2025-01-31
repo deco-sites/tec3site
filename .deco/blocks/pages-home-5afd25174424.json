@@ -6,6 +6,63 @@
       "__resolveType": "Header"
     },
     {
+      "__resolveType": "site/sections/Testimonials.tsx",
+      "title": "Veja o que é dito sobre nós",
+      "arrows": true,
+      "dots": true,
+      "slides": [
+        {
+          "content": {
+            "stars": 4,
+            "name": "Name",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas massa ex, consectetur et ullamcorper nec, sodales vel nibh. Sed lobortis posuere dui, non faucibus odio varius tempor."
+          }
+        },
+        {
+          "content": {
+            "stars": 2,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas massa ex, consectetur et ullamcorper nec, sodales vel nibh. Sed lobortis posuere dui, non faucibus odio varius tempor.",
+            "name": "Name"
+          }
+        },
+        {
+          "content": {
+            "stars": 5,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas massa ex, consectetur et ullamcorper nec, sodales vel nibh. Sed lobortis posuere dui, non faucibus odio varius tempor.",
+            "name": "Name"
+          }
+        },
+        {
+          "content": {
+            "stars": 2,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas massa ex, consectetur et ullamcorper nec, sodales vel nibh. Sed lobortis posuere dui, non faucibus odio varius tempor.",
+            "name": "Name"
+          }
+        },
+        {
+          "content": {
+            "stars": 1,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas massa ex, consectetur et ullamcorper nec, sodales vel nibh. Sed lobortis posuere dui, non faucibus odio varius tempor.",
+            "name": "Name"
+          }
+        },
+        {
+          "content": {
+            "stars": 5,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas massa ex, consectetur et ullamcorper nec, sodales vel nibh. Sed lobortis posuere dui, non faucibus odio varius tempor.",
+            "name": "Name"
+          }
+        },
+        {
+          "content": {
+            "stars": 4,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas massa ex, consectetur et ullamcorper nec, sodales vel nibh. Sed lobortis posuere dui, non faucibus odio varius tempor.",
+            "name": "Name"
+          }
+        }
+      ]
+    },
+    {
       "__resolveType": "site/sections/Hero.tsx",
       "title": "<p>Click here to tweak this text however you want.</p>",
       "cta": [],
@@ -26,11 +83,6 @@
     },
     {
       "__resolveType": "site/sections/BlogPosts.tsx"
-    },
-    {
-      "__resolveType": "site/sections/Testimonials.tsx",
-      "arrows": false,
-      "dots": true
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",

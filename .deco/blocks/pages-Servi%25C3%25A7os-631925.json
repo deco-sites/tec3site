@@ -1,0 +1,75 @@
+{
+  "name": "Serviços",
+  "path": "/servicos",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/Hero-servicos.tsx",
+      "title": "LOREM IPSUM",
+      "description": "Lorem ipsum dolor sit amet. Qui voluptas quisquam At accusamus distinctio ut necessitatibus blanditiis At quisquam officiis et delectus recusandae qui rerum quaerat in dolor aspernatur necessitatibus blanditiis .",
+      "background": "https://data.decoassets.com/tec3site/f90d63e7-9acd-41aa-964f-31c03be41750/andreea-avramescu-wR56AUlEsE4-unsplash.jpg"
+    },
+    {
+      "__resolveType": "site/sections/Services.tsx",
+      "services": [
+        {
+          "icon": "https://data.decoassets.com/tec3site/d2d9ff94-3049-46c2-83ed-fdbf363eb89d/Design-sem-nome-(24)-1.png",
+          "title": "Desenvolvimento de sites e-commerces",
+          "description": "Criação de lojas virtuais personalizadas, otimizadas para conversão e integradas a soluções de pagamento e logística.",
+          "cta": "Fale com um especialista"
+        },
+        {
+          "icon": "https://data.decoassets.com/tec3site/066251cd-f067-4cd0-951c-422647bfe7a7/Clip-path-group.png",
+          "title": "Desenvolvimento de sites institucionais",
+          "description": "Criação de lojas virtuais personalizadas, otimizadas para conversão e integradas a soluções de pagamento e logística.",
+          "cta": "Fale com um especialista"
+        },
+        {
+          "icon": "https://data.decoassets.com/tec3site/d2d9ff94-3049-46c2-83ed-fdbf363eb89d/Design-sem-nome-(24)-1.png",
+          "title": "Desenvolvimento de sites e-commerces",
+          "description": "Criação de lojas virtuais personalizadas, otimizadas para conversão e integradas a soluções de pagamento e logística.",
+          "cta": "Fale com um especialista"
+        },
+        {
+          "icon": "https://data.decoassets.com/tec3site/d2d9ff94-3049-46c2-83ed-fdbf363eb89d/Design-sem-nome-(24)-1.png",
+          "title": "Desenvolvimento de sites e-commerces",
+          "description": "Criação de lojas virtuais personalizadas, otimizadas para conversão e integradas a soluções de pagamento e logística.",
+          "cta": "Fale com um especialista"
+        },
+        {
+          "icon": "https://data.decoassets.com/tec3site/d2d9ff94-3049-46c2-83ed-fdbf363eb89d/Design-sem-nome-(24)-1.png",
+          "title": "Desenvolvimento de sites e-commerces",
+          "description": "Criação de lojas virtuais personalizadas, otimizadas para conversão e integradas a soluções de pagamento e logística.",
+          "cta": "Fale com um especialista"
+        },
+        {
+          "icon": "https://data.decoassets.com/tec3site/d2d9ff94-3049-46c2-83ed-fdbf363eb89d/Design-sem-nome-(24)-1.png",
+          "title": "Desenvolvimento de sites e-commerces",
+          "description": "Criação de lojas virtuais personalizadas, otimizadas para conversão e integradas a soluções de pagamento e logística.",
+          "cta": "Fale com um especialista"
+        },
+        {
+          "icon": "https://data.decoassets.com/tec3site/d2d9ff94-3049-46c2-83ed-fdbf363eb89d/Design-sem-nome-(24)-1.png",
+          "title": "Desenvolvimento de sites e-commerces",
+          "description": "Criação de lojas virtuais personalizadas, otimizadas para conversão e integradas a soluções de pagamento e logística.",
+          "cta": "Fale com um especialista"
+        },
+        {
+          "icon": "https://data.decoassets.com/tec3site/d2d9ff94-3049-46c2-83ed-fdbf363eb89d/Design-sem-nome-(24)-1.png",
+          "title": "Desenvolvimento de sites e-commerces",
+          "description": "Criação de lojas virtuais personalizadas, otimizadas para conversão e integradas a soluções de pagamento e logística.",
+          "cta": "Fale com um especialista"
+        }
+      ]
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
