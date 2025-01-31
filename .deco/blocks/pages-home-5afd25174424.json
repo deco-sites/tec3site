@@ -6,6 +6,35 @@
       "__resolveType": "Header"
     },
     {
+      "__resolveType": "site/sections/Hero.tsx",
+      "cta": "Fale com um especialista",
+      "logo": "https://data.decoassets.com/tec3site/cd5ad4b1-5896-4211-b5ba-849e675fbc73/Vector.png",
+      "background": "https://data.decoassets.com/tec3site/f90d63e7-9acd-41aa-964f-31c03be41750/andreea-avramescu-wR56AUlEsE4-unsplash.jpg",
+      "title": "Transformamos Ideias em UM E-commerce de Sucesso",
+      "features": [
+        {
+          "icon": "https://data.decoassets.com/tec3site/826ca352-b067-4e79-aec5-78e657598f05/svg.png",
+          "title": "Faça Seu Dinheiro Render Mais",
+          "description": "Invista em um canal eficiente  que maximiza seus resultados com custos reduzidos."
+        },
+        {
+          "icon": "https://data.decoassets.com/tec3site/826ca352-b067-4e79-aec5-78e657598f05/svg.png",
+          "title": "Faça Seu Dinheiro Render Mais",
+          "description": "Invista em um canal eficiente  que maximiza seus resultados com custos reduzidos."
+        },
+        {
+          "icon": "https://data.decoassets.com/tec3site/826ca352-b067-4e79-aec5-78e657598f05/svg.png",
+          "title": "Faça Seu Dinheiro Render Mais",
+          "description": "Invista em um canal eficiente  que maximiza seus resultados com custos reduzidos."
+        },
+        {
+          "icon": "https://data.decoassets.com/tec3site/826ca352-b067-4e79-aec5-78e657598f05/svg.png",
+          "title": "Faça Seu Dinheiro Render Mais",
+          "description": "Invista em um canal eficiente  que maximiza seus resultados com custos reduzidos."
+        }
+      ]
+    },
+    {
       "__resolveType": "site/sections/Testimonials.tsx",
       "title": "Veja o que é dito sobre nós",
       "arrows": true,
@@ -61,12 +90,6 @@
           }
         }
       ]
-    },
-    {
-      "__resolveType": "site/sections/Hero.tsx",
-      "title": "<p>Click here to tweak this text however you want.</p>",
-      "cta": [],
-      "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
     },
     {
       "__resolveType": "site/sections/Logos.tsx",

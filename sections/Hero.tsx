@@ -1,127 +1,86 @@
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
-import Header from "site/sections/Header.tsx";
+
+/**
+ * @title {{{title}}}
+ */
+export interface Feature {
+  icon: ImageWidget;
+  title: string;
+  description: string;
+}
 
 export interface Props {
   title: string;
-  description: string;
   logo: ImageWidget;
   background: ImageWidget;
+  cta: string
+  /** @maxItems 4 */
+  features?: Feature[]
 }
 
 export default function HeroFlats({
-  title = "Click here to tweak this text however you want.",
-  description =
-    "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
+  title,
   logo,
   background,
+  features,
+  cta
 }: Props) {
   return (
-    <div className="min-h-screen h-full relative">
-      <div className="absolute h-full w-full -z-10 rounded-tl-[70px] rounded-br-[70px] overflow-hidden">
+    <div className="h-full relative">
+      <div className="absolute h-full w-full -z-10">
         <Image
           width={1920}
-          className="min-h-screen h-full w-full object-cover"
+          className="w-full h-full object-cover"
           src={background}
           alt={background}
         />
 
-        <div className="bg-gradient-to-b from-[#D10D0AD9] to-[#CD710882] absolute top-0 left-0 right-0 w-full h-full z-10" />
+        <div className="bg-gradient-to-b from-[#F7362D99] to-[#5F020099] absolute top-0 left-0 right-0 w-full h-full z-10" />
       </div>
 
-      <div className="z-50 text-white rounded-tl-[70px] rounded-br-[70px]">
-        <Header />
+      <div className="z-50 text-white px-4 lg:px-32 py-40 lg:py-64 relative mb-20 lg:mb-40">
+        <Image
+          width={424}
+          height={130}
+          class="w-full h-full max-w-[192px] max-h-[60px] mb-8 lg:mb-10 lg:max-w-[424px] lg:max-h-[130px]"
+          src={logo}
+          alt={logo}
+        />
 
-        <div className="grid grid-cols-[160px_1fr] gap-7 px-4">
-          <Image
-            width={640}
-            class="w-full h-full"
-            src={logo}
-            alt={logo}
-            decoding="async"
-            loading="lazy"
-          />
+        <h2 className="uppercase text-lg font-bold mb-4 lg:mb-14 leading-1 lg:text-4xl">
+          {title}
+        </h2>
 
-          <h2 className="h-fit w-fit text-lg uppercase justify-self-end self-end">
-            {title}
-          </h2>
+        <button className="px-4 py-2 border border-white bg-transparent hover:bg-white hover:text-black transition">
+          {cta}
+        </button>
 
-          <p class="px-6 text-sm md:text-md leading-[150%] col-span-full">
-            {description}
-          </p>
-        </div>
+        {/* FEATURES */}
+        {
+          features && (
+            <section className="absolute bottom-0 left-0 right-0 max-w-[1600px] w-full transform translate-y-1/2 mx-auto grid grid-cols-2 lg:grid-cols-4 gap-4 px-4">
+              {
+                features.map((feature, idx) => (
+                  <div className={`bg-[#F7362D] grid grid-cols-[auto_1fr] items-center gap-2 p-2 rounded-md ${idx >= 2 && "hidden lg:grid"}`}>
+                    <Image
+                      width={40}
+                      height={40}
+                      class="w-full h-full max-w-10 max-h-10 lg:max-w-[72px] lg:max-h-[72px]"
+                      src={feature.icon}
+                      alt={feature.icon}
+                    />
+
+                    <h3 className="text-xs uppercase lg:text-xl">{feature.title}</h3>
+
+                    <p className="text-xs col-span-full lg:text-base lg:col-start-2">{feature.description}</p>
+                  </div>
+                ))
+              }
+            </section>
+          )
+        }
       </div>
     </div>
   )
-  // return (
-  //   <nav class="lg:container lg:mx-auto min-h-screen text-white">
-  //     <div className="absolute min-h-screen h-full w-full z-0 left-0 top-0 right-0">
-  //       <Image
-  //         width={1920}
-  //         class="absolute h-full w-full object-cover z-0 left-0 top-0 right-0"
-  //         src={background}
-  //         alt={background}
-  //         decoding="async"
-  //         loading="lazy"
-  //       />
-
-  //       <div className="bg-gradient-to-b from-[#D10D0AD9] to-[#CD710882] absolute top-0 left-0 right-0 w-full h-full z-10" />
-  //     </div>
-
-  //     <Header />
-  //     <div class="flex flex-col items-center gap-8">
-  //       <div
-  //         class={`flex w-full xl:container xl:mx-auto py-20 mx-5 md:mx-10 z-10 ${
-  //           image
-  //             ? PLACEMENT[placement]
-  //             : "flex-col items-center justify-center text-center"
-  //         } lg:py-36 gap-12 md:gap-20 items-center`}
-  //       >
-  //         {image && (
-  //           <Image
-  //             width={640}
-  //             class="w-[366px] h-[433px]"
-  //             src={image}
-  //             alt={image}
-  //             decoding="async"
-  //             loading="lazy"
-  //           />
-  //         )}
-  //         <div
-  //           class={`mx-6 lg:mx-auto lg:w-full space-y-4 gap-4 ${
-  //             image
-  //               ? "lg:w-1/2 lg:max-w-xl"
-  //               : "flex flex-col items-center justify-center lg:max-w-3xl"
-  //           }`}
-  //         >
-  //           <div
-  //             class="inline-block text-[30px] uppercase"
-  //             dangerouslySetInnerHTML={{
-  //               __html: title,
-  //             }}
-  //           >
-  //           </div>
-  //           <p class="text-lg md:text-md leading-[150%]">
-  //             {description}
-  //           </p>
-  //           <div class="flex items-center gap-3">
-  //             {cta?.map((item) => (
-  //               <a
-  //                 key={item?.id}
-  //                 id={item?.id}
-  //                 href={item?.href}
-  //                 target={item?.href.includes("http") ? "_blank" : "_self"}
-  //                 class={`font-normal btn btn-primary ${
-  //                   item.outline && "btn-outline"
-  //                 }`}
-  //               >
-  //                 {item?.text}
-  //               </a>
-  //             ))}
-  //           </div>
-  //         </div>
-  //       </div>
-  //     </div>
-  //   </nav>
-  // );
 }
