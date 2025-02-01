@@ -35,59 +35,57 @@
       ]
     },
     {
-      "__resolveType": "site/sections/Testimonials.tsx",
-      "title": "Veja o que é dito sobre nós",
-      "arrows": true,
-      "dots": true,
+      "__resolveType": "site/sections/WhyTec3.tsx",
+      "title": "Por que a TEC3?",
+      "description": "Não oferecemos apenas serviços de criação de e-commerce; criamos estratégias personalizadas para impulsionar seus resultados e transformar sua presença digital. Nossa experiência abrange design inovador, tecnologias de ponta e um suporte dedicado para levar sua marca além",
+      "features": [
+        {
+          "icon": "https://data.decoassets.com/tec3site/812dc2bd-114a-4ee5-bfe9-7f6f8009e85b/Clip-path-group-(1).png",
+          "title": "Soluções Personalizadas",
+          "description": "E-commerces adaptados às necessidades e objetivos do seu negócio."
+        },
+        {
+          "icon": "https://data.decoassets.com/tec3site/812dc2bd-114a-4ee5-bfe9-7f6f8009e85b/Clip-path-group-(1).png",
+          "title": "Soluções Personalizadas",
+          "description": "E-commerces adaptados às necessidades e objetivos do seu negócio."
+        },
+        {
+          "icon": "https://data.decoassets.com/tec3site/812dc2bd-114a-4ee5-bfe9-7f6f8009e85b/Clip-path-group-(1).png",
+          "title": "Soluções Personalizadas",
+          "description": "E-commerces adaptados às necessidades e objetivos do seu negócio."
+        },
+        {
+          "icon": "https://data.decoassets.com/tec3site/812dc2bd-114a-4ee5-bfe9-7f6f8009e85b/Clip-path-group-(1).png",
+          "title": "Soluções Personalizadas",
+          "description": "E-commerces adaptados às necessidades e objetivos do seu negócio."
+        }
+      ],
+      "subtitle": "Soluções completas para destacar sua marca e alcançar resultados excepcionais.",
+      "image": "https://data.decoassets.com/tec3site/f90d63e7-9acd-41aa-964f-31c03be41750/andreea-avramescu-wR56AUlEsE4-unsplash.jpg",
       "slides": [
         {
-          "content": {
-            "stars": 4,
-            "name": "Name",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas massa ex, consectetur et ullamcorper nec, sodales vel nibh. Sed lobortis posuere dui, non faucibus odio varius tempor."
-          }
+          "background": "https://data.decoassets.com/tec3site/f90d63e7-9acd-41aa-964f-31c03be41750/andreea-avramescu-wR56AUlEsE4-unsplash.jpg",
+          "title": "Desenvolvimento de  e-commerces",
+          "description": "Criação de lojas virtuais personalizadas, otimizadas para conversão e integradas a soluções de pagamento e logística.",
+          "cta": "Saiba mais"
         },
         {
-          "content": {
-            "stars": 2,
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas massa ex, consectetur et ullamcorper nec, sodales vel nibh. Sed lobortis posuere dui, non faucibus odio varius tempor.",
-            "name": "Name"
-          }
+          "background": "https://data.decoassets.com/tec3site/f90d63e7-9acd-41aa-964f-31c03be41750/andreea-avramescu-wR56AUlEsE4-unsplash.jpg",
+          "title": "Desenvolvimento de  e-commerces",
+          "description": "Criação de lojas virtuais personalizadas, otimizadas para conversão e integradas a soluções de pagamento e logística.",
+          "cta": "Saiba mais"
         },
         {
-          "content": {
-            "stars": 5,
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas massa ex, consectetur et ullamcorper nec, sodales vel nibh. Sed lobortis posuere dui, non faucibus odio varius tempor.",
-            "name": "Name"
-          }
+          "background": "https://data.decoassets.com/tec3site/f90d63e7-9acd-41aa-964f-31c03be41750/andreea-avramescu-wR56AUlEsE4-unsplash.jpg",
+          "title": "Desenvolvimento de  e-commerces",
+          "description": "Criação de lojas virtuais personalizadas, otimizadas para conversão e integradas a soluções de pagamento e logística.",
+          "cta": "Saiba mais"
         },
         {
-          "content": {
-            "stars": 2,
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas massa ex, consectetur et ullamcorper nec, sodales vel nibh. Sed lobortis posuere dui, non faucibus odio varius tempor.",
-            "name": "Name"
-          }
-        },
-        {
-          "content": {
-            "stars": 1,
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas massa ex, consectetur et ullamcorper nec, sodales vel nibh. Sed lobortis posuere dui, non faucibus odio varius tempor.",
-            "name": "Name"
-          }
-        },
-        {
-          "content": {
-            "stars": 5,
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas massa ex, consectetur et ullamcorper nec, sodales vel nibh. Sed lobortis posuere dui, non faucibus odio varius tempor.",
-            "name": "Name"
-          }
-        },
-        {
-          "content": {
-            "stars": 4,
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas massa ex, consectetur et ullamcorper nec, sodales vel nibh. Sed lobortis posuere dui, non faucibus odio varius tempor.",
-            "name": "Name"
-          }
+          "background": "https://data.decoassets.com/tec3site/f90d63e7-9acd-41aa-964f-31c03be41750/andreea-avramescu-wR56AUlEsE4-unsplash.jpg",
+          "title": "Desenvolvimento de  e-commerces",
+          "description": "Criação de lojas virtuais personalizadas, otimizadas para conversão e integradas a soluções de pagamento e logística.",
+          "cta": "Saiba mais"
         }
       ]
     },
