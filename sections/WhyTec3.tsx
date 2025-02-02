@@ -32,7 +32,7 @@ interface Props {
 
 export default function Section({ title, description, features, subtitle, image }: Props) {
   return (
-    <div>
+    <div className="mb-20">
       <section className="lg:relative">
         <div className="px-4 lg:px-32 mb-4 lg:mb-16">
           <h2 class="mb-1 lg:mb-4 text-xl lg:text-[40px] leading-none font-bold inline-block uppercase text-transparent bg-clip-text bg-gradient-to-r from-[#F7362D] to-[#ED8123]">

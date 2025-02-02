@@ -90,32 +90,31 @@
       ]
     },
     {
-      "__resolveType": "site/sections/Logos.tsx",
-      "logos": [
-        {}
-      ]
-    },
-    {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx"
-    },
-    {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "placement": "right"
-    },
-    {
-      "__resolveType": "site/sections/BlogPosts.tsx"
-    },
-    {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "title": "Hello Pedroooooo",
-        "titlePlacement": "left",
-        "image": "https://data.decoassets.com/tec3site/5913cf2b-aceb-4303-b8a8-c0053276baba/Unsplash-picture.jpg"
+        "__resolveType": "site/sections/Strategy.tsx",
+        "background": "https://data.decoassets.com/tec3site/f90d63e7-9acd-41aa-964f-31c03be41750/andreea-avramescu-wR56AUlEsE4-unsplash.jpg",
+        "title": "ESTRATÉGIA DE IMPLANTAÇÃO",
+        "strategies": [
+          {
+            "title": "Planejamento inicial",
+            "description": "Reunião de briefing para entendimento das necessidades e objetivos. Criação do cronograma detalhado."
+          },
+          {
+            "title": "DESENVOLVIMENTO DO LAYOUT",
+            "description": "Reunião de briefing para entendimento das necessidades e objetivos. Criação do cronograma detalhado."
+          },
+          {
+            "title": "iMPLEMENTAÇÃO FROND-END E BACK-END",
+            "description": "Desenvolvimento da loja conforme escopo definido. Testes de usabilidade e performance."
+          },
+          {
+            "title": "ENTREGA E TREINAMENTO",
+            "description": "Treinamento da equipe do cliente para utilização da plataforma. Suporte técnico inicial."
+          }
+        ],
+        "mockup": "https://data.decoassets.com/tec3site/ab9c3e0c-3c9a-45d9-9d9c-0be9475053ac/MOCKUP-NOTBOOK.png"
       }
-    },
-    {
-      "__resolveType": "site/sections/Faq.tsx"
     },
     {
       "__resolveType": "Footer"
