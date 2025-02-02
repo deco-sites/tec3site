@@ -117,6 +117,32 @@
       }
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Cases.tsx",
+        "title": "De Ideias a Realizações: Explore Nossos Cases",
+        "description": "Descubra como transformamos ideias em soluções digitais que geram resultados reais para nossos clientes.",
+        "cases": [
+          {
+            "mockup": "https://data.decoassets.com/tec3site/0712f394-639b-4790-83fe-a04b3688cd67/Design-sem-nome-(26)-1.png",
+            "link": "/portifolio"
+          },
+          {
+            "mockup": "https://data.decoassets.com/tec3site/0712f394-639b-4790-83fe-a04b3688cd67/Design-sem-nome-(26)-1.png",
+            "link": "/portifolio"
+          },
+          {
+            "mockup": "https://data.decoassets.com/tec3site/0712f394-639b-4790-83fe-a04b3688cd67/Design-sem-nome-(26)-1.png",
+            "link": "/portifolio"
+          },
+          {
+            "mockup": "https://data.decoassets.com/tec3site/0712f394-639b-4790-83fe-a04b3688cd67/Design-sem-nome-(26)-1.png",
+            "link": "/portifolio"
+          }
+        ]
+      }
+    },
+    {
       "__resolveType": "Footer"
     }
   ],
