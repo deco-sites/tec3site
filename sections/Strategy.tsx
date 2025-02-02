@@ -28,7 +28,7 @@ export default function Section({ background, title, strategies, mockup }: Props
           alt={background}
         />
 
-        <div className="bg-gradient-to-r from-[#F21F0FE5] to-[#CD7108DA] absolute top-0 left-0 right-0 w-full h-full z-10" />
+        <div className="bg-gradient-to-b from-[#F21F0F] to-[#CD710899] absolute top-0 left-0 right-0 w-full h-full z-10" />
       </div>
 
       <div className="z-50 py-10 px-4 text-white lg:p-32">
