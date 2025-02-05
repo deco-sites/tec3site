@@ -135,7 +135,39 @@
             "description": "Treinamento da equipe do cliente para utilização da plataforma. Suporte técnico inicial."
           }
         ],
-        "mockup": "https://data.decoassets.com/tec3site/ab9c3e0c-3c9a-45d9-9d9c-0be9475053ac/MOCKUP-NOTBOOK.png"
+        "mockup": "https://data.decoassets.com/tec3site/ab9c3e0c-3c9a-45d9-9d9c-0be9475053ac/MOCKUP-NOTBOOK.png",
+        "reviews": [
+          {
+            "stars": 5,
+            "name": "docella",
+            "description": "Lorem ipsum dolor sit amet. Qui voluptas quisquam At accusamus distinctio ut necessitatibus blanditiis At quisquam officiis et delectus recusandae qui rerum quaerat in dolor aspernatur."
+          },
+          {
+            "stars": 5,
+            "name": "docella",
+            "description": "Lorem ipsum dolor sit amet. Qui voluptas quisquam At accusamus distinctio ut necessitatibus blanditiis At quisquam officiis et delectus recusandae qui rerum quaerat in dolor aspernatur."
+          },
+          {
+            "stars": 5,
+            "name": "docella",
+            "description": "Lorem ipsum dolor sit amet. Qui voluptas quisquam At accusamus distinctio ut necessitatibus blanditiis At quisquam officiis et delectus recusandae qui rerum quaerat in dolor aspernatur."
+          },
+          {
+            "stars": 5,
+            "name": "docella",
+            "description": "Lorem ipsum dolor sit amet. Qui voluptas quisquam At accusamus distinctio ut necessitatibus blanditiis At quisquam officiis et delectus recusandae qui rerum quaerat in dolor aspernatur."
+          },
+          {
+            "stars": 5,
+            "name": "docella",
+            "description": "Lorem ipsum dolor sit amet. Qui voluptas quisquam At accusamus distinctio ut necessitatibus blanditiis At quisquam officiis et delectus recusandae qui rerum quaerat in dolor aspernatur."
+          },
+          {
+            "stars": 5,
+            "name": "docella",
+            "description": "Lorem ipsum dolor sit amet. Qui voluptas quisquam At accusamus distinctio ut necessitatibus blanditiis At quisquam officiis et delectus recusandae qui rerum quaerat in dolor aspernatur."
+          }
+        ]
       }
     },
     {

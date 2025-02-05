@@ -1,5 +1,6 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
+import SolutionsCarousel from "site/components/SolutionsCarousel.tsx";
 
 /**
  * @title {{{title}}}
@@ -99,8 +100,11 @@ export default function Section(
           {subtitle}
         </h3>
 
-        {/* TODO: carousel */}
-        <div className="w-full px-4 bg-red-500 h-52 lg:bg-transparent lg:h-auto">
+        <div className="w-full px-4 h-auto">
+          <div className="lg:hidden">
+            <SolutionsCarousel solutions={solutions} />
+          </div>
+
           <div className="hidden lg:grid lg:grid-cols-4 lg:gap-4">
             {solutions.map((solution) => (
               <div className="h-full relative w-full aspect-[4/3] max-h-[306px] group">

@@ -2846,12 +2846,6 @@ input.tab:checked + .tab-content,
 .h-12 {
   height: 3rem;
 }
-.h-44 {
-  height: 11rem;
-}
-.h-52 {
-  height: 13rem;
-}
 .h-64 {
   height: 16rem;
 }
@@ -2867,6 +2861,9 @@ input.tab:checked + .tab-content,
 .h-\[174px\] {
   height: 174px;
 }
+.h-\[198px\] {
+  height: 198px;
+}
 .h-\[210px\] {
   height: 210px;
 }
@@ -2881,6 +2878,9 @@ input.tab:checked + .tab-content,
 }
 .h-\[3px\] {
   height: 3px;
+}
+.h-auto {
+  height: auto;
 }
 .h-fit {
   height: -moz-fit-content;
@@ -2965,11 +2965,17 @@ input.tab:checked + .tab-content,
 .w-\[10px\] {
   width: 10px;
 }
+.w-\[200px\] {
+  width: 200px;
+}
 .w-\[238px\] {
   width: 238px;
 }
 .w-\[257px\] {
   width: 257px;
+}
+.w-\[277px\] {
+  width: 277px;
 }
 .w-\[278px\] {
   width: 278px;
@@ -4517,10 +4523,6 @@ input.tab:checked + .tab-content,
     height: 3rem;
   }
 
-  .lg\:h-80 {
-    height: 20rem;
-  }
-
   .lg\:h-\[421px\] {
     height: 421px;
   }
@@ -4535,10 +4537,6 @@ input.tab:checked + .tab-content,
 
   .lg\:h-\[760px\] {
     height: 760px;
-  }
-
-  .lg\:h-auto {
-    height: auto;
   }
 
   .lg\:h-fit {
@@ -4838,6 +4836,11 @@ input.tab:checked + .tab-content,
   .lg\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .lg\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .lg\:text-sm {
