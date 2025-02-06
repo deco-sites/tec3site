@@ -1,5 +1,6 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
+import CasesCarousel from "site/components/CasesCarousel.tsx";
 
 interface Case {
   mockup: ImageWidget;
@@ -22,6 +23,8 @@ export default function Section({ title, description, cases, cta = "Ver mais" }:
       </h2>
 
       <p className="text-xs mb-4 max-w-[750px] lg:px-28 lg:text-xl">{description}</p>
+
+      <CasesCarousel cazes={cases} />
 
       <div className="h-64 w-full bg-red-500 mb-4 lg:h-fit lg:bg-transparent lg:grid lg:grid-cols-4">
         {/* TODO: carousel */}
