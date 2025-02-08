@@ -112,89 +112,83 @@
       ]
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Strategy.tsx",
-        "background": "https://data.decoassets.com/tec3site/f90d63e7-9acd-41aa-964f-31c03be41750/andreea-avramescu-wR56AUlEsE4-unsplash.jpg",
-        "title": "ESTRATÉGIA DE IMPLANTAÇÃO",
-        "strategies": [
-          {
-            "title": "Planejamento inicial",
-            "description": "Reunião de briefing para entendimento das necessidades e objetivos. Criação do cronograma detalhado."
-          },
-          {
-            "title": "DESENVOLVIMENTO DO LAYOUT",
-            "description": "Reunião de briefing para entendimento das necessidades e objetivos. Criação do cronograma detalhado."
-          },
-          {
-            "title": "iMPLEMENTAÇÃO FROND-END E BACK-END",
-            "description": "Desenvolvimento da loja conforme escopo definido. Testes de usabilidade e performance."
-          },
-          {
-            "title": "ENTREGA E TREINAMENTO",
-            "description": "Treinamento da equipe do cliente para utilização da plataforma. Suporte técnico inicial."
-          }
-        ],
-        "mockup": "https://data.decoassets.com/tec3site/ab9c3e0c-3c9a-45d9-9d9c-0be9475053ac/MOCKUP-NOTBOOK.png",
-        "reviews": [
-          {
-            "stars": 5,
-            "name": "docella",
-            "description": "Lorem ipsum dolor sit amet. Qui voluptas quisquam At accusamus distinctio ut necessitatibus blanditiis At quisquam officiis et delectus recusandae qui rerum quaerat in dolor aspernatur."
-          },
-          {
-            "stars": 5,
-            "name": "docella",
-            "description": "Lorem ipsum dolor sit amet. Qui voluptas quisquam At accusamus distinctio ut necessitatibus blanditiis At quisquam officiis et delectus recusandae qui rerum quaerat in dolor aspernatur."
-          },
-          {
-            "stars": 5,
-            "name": "docella",
-            "description": "Lorem ipsum dolor sit amet. Qui voluptas quisquam At accusamus distinctio ut necessitatibus blanditiis At quisquam officiis et delectus recusandae qui rerum quaerat in dolor aspernatur."
-          },
-          {
-            "stars": 5,
-            "name": "docella",
-            "description": "Lorem ipsum dolor sit amet. Qui voluptas quisquam At accusamus distinctio ut necessitatibus blanditiis At quisquam officiis et delectus recusandae qui rerum quaerat in dolor aspernatur."
-          },
-          {
-            "stars": 5,
-            "name": "docella",
-            "description": "Lorem ipsum dolor sit amet. Qui voluptas quisquam At accusamus distinctio ut necessitatibus blanditiis At quisquam officiis et delectus recusandae qui rerum quaerat in dolor aspernatur."
-          },
-          {
-            "stars": 5,
-            "name": "docella",
-            "description": "Lorem ipsum dolor sit amet. Qui voluptas quisquam At accusamus distinctio ut necessitatibus blanditiis At quisquam officiis et delectus recusandae qui rerum quaerat in dolor aspernatur."
-          }
-        ]
-      }
+      "__resolveType": "site/sections/Strategy.tsx",
+      "background": "https://data.decoassets.com/tec3site/f90d63e7-9acd-41aa-964f-31c03be41750/andreea-avramescu-wR56AUlEsE4-unsplash.jpg",
+      "title": "ESTRATÉGIA DE IMPLANTAÇÃO",
+      "strategies": [
+        {
+          "title": "Planejamento inicial",
+          "description": "Reunião de briefing para entendimento das necessidades e objetivos. Criação do cronograma detalhado."
+        },
+        {
+          "title": "DESENVOLVIMENTO DO LAYOUT",
+          "description": "Reunião de briefing para entendimento das necessidades e objetivos. Criação do cronograma detalhado."
+        },
+        {
+          "title": "iMPLEMENTAÇÃO FROND-END E BACK-END",
+          "description": "Desenvolvimento da loja conforme escopo definido. Testes de usabilidade e performance."
+        },
+        {
+          "title": "ENTREGA E TREINAMENTO",
+          "description": "Treinamento da equipe do cliente para utilização da plataforma. Suporte técnico inicial."
+        }
+      ],
+      "mockup": "https://data.decoassets.com/tec3site/ab9c3e0c-3c9a-45d9-9d9c-0be9475053ac/MOCKUP-NOTBOOK.png",
+      "reviews": [
+        {
+          "stars": 5,
+          "name": "docella",
+          "description": "Lorem ipsum dolor sit amet. Qui voluptas quisquam At accusamus distinctio ut necessitatibus blanditiis At quisquam officiis et delectus recusandae qui rerum quaerat in dolor aspernatur."
+        },
+        {
+          "stars": 5,
+          "name": "docella",
+          "description": "Lorem ipsum dolor sit amet. Qui voluptas quisquam At accusamus distinctio ut necessitatibus blanditiis At quisquam officiis et delectus recusandae qui rerum quaerat in dolor aspernatur."
+        },
+        {
+          "stars": 5,
+          "name": "docella",
+          "description": "Lorem ipsum dolor sit amet. Qui voluptas quisquam At accusamus distinctio ut necessitatibus blanditiis At quisquam officiis et delectus recusandae qui rerum quaerat in dolor aspernatur."
+        },
+        {
+          "stars": 5,
+          "name": "docella",
+          "description": "Lorem ipsum dolor sit amet. Qui voluptas quisquam At accusamus distinctio ut necessitatibus blanditiis At quisquam officiis et delectus recusandae qui rerum quaerat in dolor aspernatur."
+        },
+        {
+          "stars": 5,
+          "name": "docella",
+          "description": "Lorem ipsum dolor sit amet. Qui voluptas quisquam At accusamus distinctio ut necessitatibus blanditiis At quisquam officiis et delectus recusandae qui rerum quaerat in dolor aspernatur."
+        },
+        {
+          "stars": 5,
+          "name": "docella",
+          "description": "Lorem ipsum dolor sit amet. Qui voluptas quisquam At accusamus distinctio ut necessitatibus blanditiis At quisquam officiis et delectus recusandae qui rerum quaerat in dolor aspernatur."
+        }
+      ]
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Cases.tsx",
-        "title": "De Ideias a Realizações: Explore Nossos Cases",
-        "description": "Descubra como transformamos ideias em soluções digitais que geram resultados reais para nossos clientes.",
-        "cases": [
-          {
-            "mockup": "https://data.decoassets.com/tec3site/0712f394-639b-4790-83fe-a04b3688cd67/Design-sem-nome-(26)-1.png",
-            "link": "/portifolio"
-          },
-          {
-            "mockup": "https://data.decoassets.com/tec3site/0712f394-639b-4790-83fe-a04b3688cd67/Design-sem-nome-(26)-1.png",
-            "link": "/portifolio"
-          },
-          {
-            "mockup": "https://data.decoassets.com/tec3site/0712f394-639b-4790-83fe-a04b3688cd67/Design-sem-nome-(26)-1.png",
-            "link": "/portifolio"
-          },
-          {
-            "mockup": "https://data.decoassets.com/tec3site/0712f394-639b-4790-83fe-a04b3688cd67/Design-sem-nome-(26)-1.png",
-            "link": "/portifolio"
-          }
-        ]
-      }
+      "__resolveType": "site/sections/Cases.tsx",
+      "title": "De Ideias a Realizações: Explore Nossos Cases",
+      "description": "Descubra como transformamos ideias em soluções digitais que geram resultados reais para nossos clientes.",
+      "cases": [
+        {
+          "mockup": "https://data.decoassets.com/tec3site/0712f394-639b-4790-83fe-a04b3688cd67/Design-sem-nome-(26)-1.png",
+          "link": "/portifolio"
+        },
+        {
+          "mockup": "https://data.decoassets.com/tec3site/0712f394-639b-4790-83fe-a04b3688cd67/Design-sem-nome-(26)-1.png",
+          "link": "/portifolio"
+        },
+        {
+          "mockup": "https://data.decoassets.com/tec3site/0712f394-639b-4790-83fe-a04b3688cd67/Design-sem-nome-(26)-1.png",
+          "link": "/portifolio"
+        },
+        {
+          "mockup": "https://data.decoassets.com/tec3site/0712f394-639b-4790-83fe-a04b3688cd67/Design-sem-nome-(26)-1.png",
+          "link": "/portifolio"
+        }
+      ]
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",

@@ -45,7 +45,7 @@ export default function Section(
           <div className="bg-gradient-to-b from-[#F21F0F] to-[#CD710899] absolute top-0 left-0 right-0 w-full h-full z-10" />
         </div>
 
-        <div className="z-50 py-10 px-4 text-white lg:p-32">
+        <div className="z-50 py-10 pb-6 px-4 text-white lg:p-32">
           <h2 className="text-xs font-bold uppercase mb-6 lg:text-[26px] lg:mb-8">
             {title}
           </h2>
@@ -70,16 +70,16 @@ export default function Section(
               width={945}
               height={610}
               src={mockup}
-              className="w-[238px] h-[161px] absolute bottom-0 left-0 transform translate-y-5 object-cover lg:w-[945px] lg:h-[610px] lg:translate-y-28"
+              className="w-[218px] h-[141px] absolute bottom-0 left-0 transform translate-y-5 object-cover lg:w-[945px] lg:h-[610px] lg:translate-y-28"
             />
 
             {/* TODO: carousel */}
             <div className="w-full">
+              <StrategyCarousel reviews={reviews} />
             </div>
           </div>
         </div>
       </div>
-      <StrategyCarousel reviews={reviews} />
     </>
   );
 }

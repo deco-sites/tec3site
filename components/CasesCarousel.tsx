@@ -15,23 +15,18 @@ export interface Props {
 
 function SliderItem({ caze, id }: { caze: Case; id: string }) {
   return (
-    <div id={id} className="h-[198px] w-[277px] relative group">
-      <div className="absolute h-full w-full -z-10">
-        <Image
-          width={277}
-          className="w-full h-full object-cover"
-          src={caze.mockup}
-        />
-
-        <div className="bg-gradient-to-b from-[#F7362D99] to-[#5F020099] absolute top-0 left-0 right-0 w-full h-full z-10 transition-all duration-300 group-hover:from-[#00000099] group-hover:to-[#00000099]" />
-      </div>
-
-      <div className="z-50 text-white h-full flex flex-col items-center justify-center text-center p-8">
-        <p className="text-xs lg:text-sm h-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-hover:h-auto mt-2">
-          aaaaa
-        </p>
-      </div>
-    </div>
+    <a
+      href={caze.link}
+      className="h-64 w-full lg:h-fit"
+      id={id}
+    >
+      <Image
+        width={425}
+        height={425}
+        src={caze.mockup}
+        className="max-w-[256px] max-h-[256px]  lg:max-w-[425px] lg:max-h-[425px] w-full h-full"
+      />
+    </a>
   );
 }
 
@@ -46,7 +41,7 @@ export default function CasesCarousel(props: Props) {
     >
       <div className="flex flex-col items-center gap-2 lg:gap-8">
         <Slider
-          class="carousel carousel-center w-full col-span-full row-span-full gap-7 mb-4"
+          class="carousel carousel-center w-full col-span-full row-span-full gap-4 lg:gap-7"
           rootId={id}
           infinite
         >
@@ -66,17 +61,17 @@ export default function CasesCarousel(props: Props) {
         <div className="flex items-center gap-4">
           <Slider.PrevButton class="shrink-0 flex items-center justify-center">
             <Icon
-              size={24}
               id="ChevronLeft"
               strokeWidth={3}
+              className="w-[14px] h-[14px] lg:w-6 lg:h-6"
             />
           </Slider.PrevButton>
 
           <Slider.NextButton class="shrink-0 flex items-center justify-center">
             <Icon
-              size={24}
               id="ChevronRight"
               strokeWidth={3}
+              className="w-[14px] h-[14px] lg:w-6 lg:h-6"
             />
           </Slider.NextButton>
         </div>

@@ -17,17 +17,17 @@ interface Props {
 
 export default function Section({ title, description, cases, cta = "Ver mais" }: Props) {
   return (
-    <div className="px-4 py-4 mb-32 bg-[#cbcbcb41] lg:py-8">
+    <div className="p-4 mb-32 bg-[#cbcbcb41] lg:py-8">
       <h2 class="mb-3 text-sm leading-none font-bold inline-block uppercase text-transparent bg-clip-text bg-gradient-to-r from-[#F7362D] to-[#ED8123] lg:px-28 lg:text-2xl">
         {title}
       </h2>
 
-      <p className="text-xs mb-4 max-w-[750px] lg:px-28 lg:text-xl">{description}</p>
+      <p className="text-xs mb-4 max-w-[746px] lg:px-28 lg:text-xl">{description}</p>
 
-      <CasesCarousel cazes={cases} />
-
-      <div className="h-64 w-full bg-red-500 mb-4 lg:h-fit lg:bg-transparent lg:grid lg:grid-cols-4">
-        {/* TODO: carousel */}
+      <div className="w-full mb-8 lg:h-fit lg:grid lg:grid-cols-4">
+        <div className="lg:hidden">
+          <CasesCarousel cazes={cases} />
+        </div>
 
         {
           cases.map((c) => (

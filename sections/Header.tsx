@@ -81,7 +81,6 @@ export default function Header({
             <Image
               src={logo.src || ""}
               width={100}
-              height={28}
               alt={logo.alt}
             />
           </a>
@@ -89,7 +88,7 @@ export default function Header({
           <ul class="menu">
             {navigation?.links.map((link) => (
               <li>
-                <a href={link.url} aria-label={link.label}>
+                <a href={link.url} aria-label={link.label} className="uppercase">
                   {link.label}
                 </a>
               </li>

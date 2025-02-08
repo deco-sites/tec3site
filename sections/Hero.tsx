@@ -48,7 +48,7 @@ export default function HeroFlats({
           alt={logo}
         />
 
-        <h2 className="uppercase text-lg font-bold mb-4 lg:mb-14 leading-1 lg:text-4xl">
+        <h2 className="uppercase text-lg font-bold mb-4 max-w-[625px] lg:mb-14 leading-1 lg:text-4xl">
           {title}
         </h2>
 

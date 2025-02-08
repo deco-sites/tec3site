@@ -17,17 +17,17 @@ function SliderItem({ review, id }: { review: Reviews; id: string }) {
   return (
     <div
       id={id}
-      className="bg-[#eaddea36] flex flex-col items-center justify-center gap-4 lg:gap-7 text-center w-[200px]"
+      className="flex flex-col items-center justify-center gap-2 text-center w-[200px] lg:w-[360px] lg:gap-4"
     >
       <div className="flex items-center gap-2 shrink-0">
         {Array.from({ length: review.stars }).map((_, index) => (
-          <Star key={index} className="text-yellow-400" />
+          <Star key={index} className="text-yellow-400 w-[14px] h-[14px] lg:w-6 lg:h-6" />
         ))}
       </div>
 
-      <p className="text-sm lg:text-xl">{review.description}</p>
+      <p className="text-xs lg:text-xl">{review.description}</p>
 
-      <p className="text-base lg:text-xl uppercase">{review.name}</p>
+      <p className="text-xs uppercase font-bold lg:text-xl">{review.name}</p>
     </div>
   );
 }
@@ -43,7 +43,7 @@ export default function StrategyCarousel(props: Props) {
     >
       <div className="flex flex-col items-center gap-2 lg:gap-8">
         <Slider
-          class="carousel carousel-center w-full col-span-full row-span-full gap-7 mb-4"
+          class="carousel carousel-start w-full col-span-full row-span-full gap-7 mb-4 lg:max-w-[720px]"
           rootId={id}
           infinite
         >
@@ -63,17 +63,17 @@ export default function StrategyCarousel(props: Props) {
         <div className="flex items-center gap-4">
           <Slider.PrevButton class="shrink-0 flex items-center justify-center">
             <Icon
-              size={24}
               id="ChevronLeft"
               strokeWidth={3}
+              className="w-[14px] h-[14px] lg:w-6 lg:h-6"
             />
           </Slider.PrevButton>
 
           <Slider.NextButton class="shrink-0 flex items-center justify-center">
             <Icon
-              size={24}
               id="ChevronRight"
               strokeWidth={3}
+              className="w-[14px] h-[14px] lg:w-6 lg:h-6"
             />
           </Slider.NextButton>
         </div>
