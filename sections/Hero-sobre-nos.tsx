@@ -1,13 +1,24 @@
 import Image from "apps/website/components/Image.tsx";
 import { ImageWidget } from "apps/admin/widgets.ts";
 import { Section } from "@deco/deco/blocks";
+import { hexWithOpacity } from "site/helpers/hex.ts";
+
+export interface Background {
+    image: ImageWidget;
+    /**
+     * @maximum 100
+     * @minimum 0
+     * @title Gradient Opacity (0-100%)
+     */
+    gradient_opacity: number
+}
 
 interface Props {
   header: Section;
   title: string;
   description: string;
   logo: ImageWidget;
-  background: ImageWidget;
+  background: Background;
   /** @maxItems 3 */
   metrics?: {
     value: string
@@ -22,11 +33,16 @@ export default function HeroSobreNosSection({ title, description, logo, backgrou
         <Image
           width={1920}
           className="min-h-screen h-full w-full object-cover"
-          src={background}
-          alt={background}
+          src={background.image}
+          alt={background.image}
         />
 
-        <div className="bg-gradient-to-b from-[#D10D0AD9] to-[#CD710882] absolute top-0 left-0 right-0 w-full h-full z-10" />
+        <div
+          className="bg-gradient-to-b absolute top-0 left-0 right-0 w-full h-full z-10"
+          style={{
+            backgroundImage: `linear-gradient(to bottom, ${hexWithOpacity("#D10D0A", background.gradient_opacity)} 0%, ${hexWithOpacity("#CD7108", background.gradient_opacity)} 100%)`
+          }}
+        />
       </div>
 
       <div className="pt-28 md:pt-40 z-50 text-white rounded-tl-[70px] md:rounded-tl-none rounded-br-[70px] md:rounded-bl-[100px] md:rounded-br-none pb-8">

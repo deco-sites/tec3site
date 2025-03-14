@@ -1,10 +1,21 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
+import { hexWithOpacity } from "site/helpers/hex.ts";
+
+export interface Background {
+    image: ImageWidget;
+    /**
+     * @maximum 100
+     * @minimum 0
+     * @title Gradient Opacity (0-100%)
+     */
+    gradient_opacity: number
+}
 
 interface Props {
   title: string;
   description: string;
-  background: ImageWidget;
+  background: Background;
   projects: {
     mockup: ImageWidget;
     title: string;
@@ -19,11 +30,16 @@ export default function Section({ title, description, background, projects }: Pr
         <Image
           width={1920}
           className="h-full w-full object-cover"
-          src={background}
-          alt={background}
+          src={background.image}
+          alt={background.image}
         />
 
-        <div className="bg-gradient-to-b from-[#F81504CC] to-[#CD7108A3] absolute top-0 left-0 right-0 w-full h-full z-10" />
+        <div
+          className="bg-gradient-to-b absolute top-0 left-0 right-0 w-full h-full z-10"
+          style={{
+            backgroundImage: `linear-gradient(to bottom, ${hexWithOpacity("#F81504", background.gradient_opacity)} 0%, ${hexWithOpacity("#CD7108", background.gradient_opacity)} 100%)`
+          }}
+        />
       </div>
 
       <h1 className="text-xl lg:text-[40px] font-bold max-w-6xl mx-auto text-center mb-10 uppercase">{title}</h1>
