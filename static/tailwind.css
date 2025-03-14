@@ -3584,19 +3584,9 @@ input.tab:checked + .tab-content,
   --tw-gradient-to: rgb(242 31 15 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
-.from-\[\#F21F0FE5\] {
-  --tw-gradient-from: #F21F0FE5 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(242 31 15 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
 .from-\[\#F21F0F\] {
   --tw-gradient-from: #F21F0F var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(242 31 15 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-.from-\[\#F7362D99\] {
-  --tw-gradient-from: #F7362D99 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(247 54 45 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 .from-\[\#F7362D\] {
@@ -3628,23 +3618,14 @@ input.tab:checked + .tab-content,
   --tw-gradient-to: rgb(167 59 43 / 0)  var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), #A73B2B var(--tw-gradient-via-position), var(--tw-gradient-to);
 }
-.to-\[\#5F020099\] {
-  --tw-gradient-to: #5F020099 var(--tw-gradient-to-position);
-}
 .to-\[\#CD710882\] {
   --tw-gradient-to: #CD710882 var(--tw-gradient-to-position);
-}
-.to-\[\#CD710899\] {
-  --tw-gradient-to: #CD710899 var(--tw-gradient-to-position);
 }
 .to-\[\#CD7108A3\] {
   --tw-gradient-to: #CD7108A3 var(--tw-gradient-to-position);
 }
 .to-\[\#CD7108CC\] {
   --tw-gradient-to: #CD7108CC var(--tw-gradient-to-position);
-}
-.to-\[\#CD7108DA\] {
-  --tw-gradient-to: #CD7108DA var(--tw-gradient-to-position);
 }
 .to-\[\#CE5F03\] {
   --tw-gradient-to: #CE5F03 var(--tw-gradient-to-position);

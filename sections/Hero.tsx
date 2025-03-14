@@ -1,5 +1,6 @@
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
+import { hexWithOpacity } from "site/helpers/hex.ts";
 
 /**
  * @title {{{title}}}
@@ -10,10 +11,20 @@ export interface Feature {
   description: string;
 }
 
+export interface Background {
+    image: ImageWidget;
+    /**
+     * @maximum 100
+     * @minimum 0
+     * @title Gradient Opacity (0-100%)
+     */
+    gradient_opacity: number
+}
+
 export interface Props {
   title: string;
   logo: ImageWidget;
-  background: ImageWidget;
+  background: Background;
   cta: string
   /** @maxItems 4 */
   features?: Feature[]
@@ -32,11 +43,16 @@ export default function HeroFlats({
         <Image
           width={1920}
           className="w-full h-full object-cover"
-          src={background}
-          alt={background}
+          src={background.image}
+          alt={background.image}
         />
 
-        <div className="bg-gradient-to-b from-[#F7362D99] to-[#5F020099] absolute top-0 left-0 right-0 w-full h-full z-10" />
+        <div
+            className={`bg-gradient-to-b absolute top-0 left-0 right-0 w-full h-full z-10`}
+            style={{
+              backgroundImage: `linear-gradient(to bottom, ${hexWithOpacity("#F7362D", background.gradient_opacity)} 0%, ${hexWithOpacity("#5F0200", background.gradient_opacity)} 100%)`
+            }}
+        />
       </div>
 
       <div className="z-50 text-white px-4 lg:px-32 py-40 lg:py-64 relative mb-20 lg:mb-40">

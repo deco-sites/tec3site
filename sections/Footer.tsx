@@ -2,9 +2,20 @@ import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Person from "site/components/icons/Person.tsx";
 import Mail from "site/components/icons/Mail.tsx";
+import { hexWithOpacity } from "site/helpers/hex.ts";
+
+export interface Background {
+    image: ImageWidget;
+    /**
+     * @maximum 100
+     * @minimum 0
+     * @title Gradient Opacity (0-100%)
+     */
+    gradient_opacity: number
+}
 
 export interface Props {
-  background: ImageWidget;
+  background: Background;
   title?: string;
   description?: string;
 }
@@ -20,11 +31,16 @@ export default function Footer({
         <Image
           width={1920}
           className="min-h-screen h-full w-full object-cover"
-          src={background}
-          alt={background}
+          src={background.image}
+          alt={background.image}
         />
 
-        <div className="bg-gradient-to-r from-[#F21F0FE5] to-[#CD7108DA] absolute top-0 left-0 right-0 w-full h-full z-10" />
+        <div
+          className="bg-gradient-to-r absolute top-0 left-0 right-0 w-full h-full z-10"
+          style={{
+            backgroundImage: `linear-gradient(to bottom, ${hexWithOpacity("#F21F0F", background.gradient_opacity)} 0%, ${hexWithOpacity("#CD7108", background.gradient_opacity)} 100%)`
+          }}
+        />
       </div>
 
       <div className="z-50 py-20 max-w-xl mx-auto px-4 text-white">

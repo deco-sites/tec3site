@@ -1,6 +1,7 @@
 import Image from "apps/website/components/Image.tsx";
 import { ImageWidget } from "apps/admin/widgets.ts";
 import StrategyCarousel from "site/components/StrategyCarousel.tsx";
+import { hexWithOpacity } from "site/helpers/hex.ts";
 
 /**
  * @title {{{title}}}
@@ -19,8 +20,18 @@ interface Review {
   stars: 1 | 2 | 3 | 4 | 5;
 }
 
+export interface Background {
+    image: ImageWidget;
+    /**
+     * @maximum 100
+     * @minimum 0
+     * @title Gradient Opacity (0-100%)
+     */
+    gradient_opacity: number
+}
+
 interface Props {
-  background: ImageWidget;
+  background: Background;
   title: string;
   /** @maxItems 4 */
   strategies: Strategy[];
@@ -38,11 +49,16 @@ export default function Section(
           <Image
             width={1920}
             className="min-h-screen h-full w-full object-cover"
-            src={background}
-            alt={background}
+            src={background.image}
+            alt={background.image}
           />
 
-          <div className="bg-gradient-to-b from-[#F21F0F] to-[#CD710899] absolute top-0 left-0 right-0 w-full h-full z-10" />
+          <div
+            className="bg-gradient-to-b absolute top-0 left-0 right-0 w-full h-full z-10"
+            style={{
+              backgroundImage: `linear-gradient(to bottom, ${hexWithOpacity("#F21F0F", background.gradient_opacity)} 0%, ${hexWithOpacity("#CD7108", background.gradient_opacity)} 100%)`
+            }}
+          />
         </div>
 
         <div className="z-50 py-10 pb-6 px-4 text-white lg:p-32">

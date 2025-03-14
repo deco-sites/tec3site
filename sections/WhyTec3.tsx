@@ -1,6 +1,7 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import SolutionsCarousel from "site/components/SolutionsCarousel.tsx";
+import { hexWithOpacity } from "site/helpers/hex.ts";
 
 /**
  * @title {{{title}}}
@@ -11,11 +12,21 @@ interface Feature {
   description: string;
 }
 
+export interface Background {
+  image: ImageWidget;
+  /**
+   * @maximum 100
+   * @minimum 0
+   * @title Gradient Opacity (0-100%)
+   */
+  gradient_opacity: number
+}
+
 /**
  * @title {{{title}}}
  */
 interface Solution {
-  background: ImageWidget;
+  background: Background;
   title: string;
   description: string;
 }
@@ -112,11 +123,16 @@ export default function Section(
                   <Image
                     width={466}
                     className="w-full h-full object-cover"
-                    src={solution.background}
-                    alt={solution.background}
+                    src={solution.background.image}
+                    alt={solution.background.image}
                   />
 
-                  <div className="bg-gradient-to-b from-[#F7362D99] to-[#5F020099] absolute top-0 left-0 right-0 w-full h-full z-10 transition-all duration-300 group-hover:from-[#00000099] group-hover:to-[#00000099]" />
+                  <div
+                    className="bg-gradient-to-b absolute top-0 left-0 right-0 w-full h-full z-10 transition-all duration-300 group-hover:from-[#00000099] group-hover:to-[#00000099]"
+                    style={{
+                      backgroundImage: `linear-gradient(to bottom, ${hexWithOpacity("#F7362D", solution.background.gradient_opacity)} 0%, ${hexWithOpacity("#5F0200", solution.background.gradient_opacity)} 100%)`
+                    }}
+                  />
                 </div>
 
                 <div className="z-50 text-white h-full flex flex-col items-center justify-center text-center p-8">
