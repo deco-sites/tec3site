@@ -3,6 +3,10 @@
   "navigation": {
     "links": [
       {
+        "label": "Home",
+        "url": "/"
+      },
+      {
         "label": "sobre nós",
         "url": "/sobre-nos"
       },
@@ -15,8 +19,8 @@
         "url": "/portifolio"
       },
       {
-        "label": "contato",
-        "url": "#"
+        "url": "#",
+        "label": "contato"
       }
     ],
     "buttons": []

@@ -1,6 +1,7 @@
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import Icon from "../components/ui/Icon.tsx";
+import House from "../components/icons/House.tsx"
 
 export interface CTA {
   id?: string;
@@ -44,15 +45,16 @@ export default function Header({
       {/* main content */}
       <div class="drawer-content justify-self-end md:justify-self-stretch lg:px-0 px-4 pr-0 flex gap-8 items-center justify-between md:ml-20 py-8">
         <div class="hidden items-center justify-between md:flex w-full border-t-2 px-4 border-t-white">
-          <ul class="flex py-2 px-4">
+          <ul class="flex items-center py-2 px-4">
             {navigation.links.map((link) => (
-              <li>
+              <li className="h-6">
                 <a
                   href={link.url}
                   aria-label={link.label}
-                  class="link no-underline hover:underline p-4 text-xl uppercase"
+                  class="link no-underline hover:underline p-4 text-xl uppercase block"
                 >
-                  {link.label}
+                  {link.url === "/" && <House width={24} height={24} className="fill-white" /> }
+                  {link.url !== "/" && link.label}
                 </a>
               </li>
             ))}
@@ -88,8 +90,13 @@ export default function Header({
           <ul class="menu">
             {navigation?.links.map((link) => (
               <li>
-                <a href={link.url} aria-label={link.label} className="uppercase">
-                  {link.label}
+                <a
+                  href={link.url}
+                  aria-label={link.label}
+                  class="uppercase block"
+                >
+                  {link.url === "/" && <House width={24} height={24} className="fill-black" /> }
+                  {link.url !== "/" && link.label}
                 </a>
               </li>
             ))}
