@@ -75,24 +75,7 @@ export default function Section(
 
                 <p className="text-xs lg:text-xl">{strategy.description}</p>
               </fieldset>
-            ))}
-          </div>
-
-          <div className="grid grid-cols-2">
-            <div />
-
-            {/* MOCKUP */}
-            <Image
-              width={945}
-              height={610}
-              src={mockup}
-              className="w-[218px] h-[141px] absolute bottom-0 left-0 transform translate-y-5 object-cover lg:w-[945px] lg:h-[610px] lg:translate-y-28"
-            />
-
-            {/* TODO: carousel */}
-            <div className="w-full">
-              <StrategyCarousel reviews={reviews} />
-            </div>
+            ))}          
           </div>
         </div>
       </div>
