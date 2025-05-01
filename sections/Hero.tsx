@@ -68,7 +68,7 @@ export default function HeroFlats({
           {title}
         </h2>
 
-        <button className="px-4 py-2 border border-white bg-transparent hover:bg-white hover:text-black transition">
+        <button onclick="window.open('https://wa.me/554788136038', '_blank', 'noopener,noreferrer')" className="px-4 py-2 border border-white bg-transparent hover:bg-white hover:text-black transition">
           {cta}
         </button>
 
