@@ -743,59 +743,6 @@
       "reviews": []
     },
     {
-      "__resolveType": "site/sections/Cases.tsx",
-      "title": "De Ideias a Realizações: Explore Nossos Cases",
-      "description": "Descubra como transformamos ideias em soluções digitais que geram resultados reais para nossos clientes.",
-      "cases": [
-        {
-          "mockup": "https://data.decoassets.com/tec3site/0712f394-639b-4790-83fe-a04b3688cd67/Design-sem-nome-(26)-1.png",
-          "link": "/portifolio"
-        },
-        {
-          "mockup": "https://data.decoassets.com/tec3site/0712f394-639b-4790-83fe-a04b3688cd67/Design-sem-nome-(26)-1.png",
-          "link": "/portifolio"
-        },
-        {
-          "mockup": "https://data.decoassets.com/tec3site/0712f394-639b-4790-83fe-a04b3688cd67/Design-sem-nome-(26)-1.png",
-          "link": "/portifolio"
-        },
-        {
-          "mockup": "https://data.decoassets.com/tec3site/0712f394-639b-4790-83fe-a04b3688cd67/Design-sem-nome-(26)-1.png",
-          "link": "/portifolio"
-        }
-      ]
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Platforms.tsx",
-        "title": "Construa Seu Negócio em Bases Sólidas e Confiáveis",
-        "description": "Escolher a plataforma certa é essencial para garantir a performance, segurança e escalabilidade do seu site ou e-commerce. Trabalhamos com as principais opções do mercado, oferecendo soluções que atendem perfeitamente às necessidades do seu negócio. Seja para uma loja virtual de alta performance ou um site institucional sólido, garantimos uma infraestrutura confiável e compatível com as mais modernas tecnologias. Conte com a flexibilidade, estabilidade e suporte ideal para impulsionar sua presença digital e alcançar seus objetivos.",
-        "platforms": [
-          {
-            "logo": "https://data.decoassets.com/tec3site/ddb52d57-84d6-4fa9-8daf-a4b4e765644b/download-(3)-1.png",
-            "title": "seu e-commerce rápido e seguro ",
-            "description": "Lorem ipsum dolor sit amet. Eos nihil Quis aut facere aspernatur et rerum rerum aut deserunt odit qui."
-          },
-          {
-            "logo": "https://data.decoassets.com/tec3site/ddb52d57-84d6-4fa9-8daf-a4b4e765644b/download-(3)-1.png",
-            "title": "seu e-commerce rápido e seguro ",
-            "description": "Lorem ipsum dolor sit amet. Eos nihil Quis aut facere aspernatur et rerum rerum aut deserunt odit qui."
-          },
-          {
-            "logo": "https://data.decoassets.com/tec3site/ddb52d57-84d6-4fa9-8daf-a4b4e765644b/download-(3)-1.png",
-            "title": "seu e-commerce rápido e seguro ",
-            "description": "Lorem ipsum dolor sit amet. Eos nihil Quis aut facere aspernatur et rerum rerum aut deserunt odit qui."
-          },
-          {
-            "logo": "https://data.decoassets.com/tec3site/ddb52d57-84d6-4fa9-8daf-a4b4e765644b/download-(3)-1.png",
-            "title": "seu e-commerce rápido e seguro ",
-            "description": "Lorem ipsum dolor sit amet. Eos nihil Quis aut facere aspernatur et rerum rerum aut deserunt odit qui."
-          }
-        ]
-      }
-    },
-    {
       "__resolveType": "Footer"
     }
   ],
